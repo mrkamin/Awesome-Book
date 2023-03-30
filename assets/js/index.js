@@ -1,12 +1,3 @@
-const addEl2 = document.getElementById('sect__one__items__item2');
-addEl2.innerHTML = `
-<form id="sect__one__item2__form">
-<p><input type="text" name="title" id="sect__one__item1__input1" placeholder="BookTitle" required></p>
-<p><input type="text" name="author" id="sect__one__item1__input2" placeholder="BookAthor" required></p>
-<button type="submit" id="sect__one__item1__btn1">Add</button></form>
-`;
-/* ======================================================================== */
-
 /* || VARIABLES AND FUNCTIONS */
 const booksContainer = document.querySelector('.sect__one__items__item1');
 const newForm = document.querySelector('form');
