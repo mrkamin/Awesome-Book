@@ -20,7 +20,7 @@ const library = (book) => {
   booksContainer.appendChild(bookContent);
 };
 
-/* ====================================================================== */
+/* ========================================================= */
 
 /* || FUNCTIONS TO ADD BOOKS TO THE LIB */
 const getData = () => {
